@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import PropertyDetail from "@/components/property/PropertyDetail";
+import PropertyDetail from "../../components/property/PropertyDetail";
 
 export default function PropertyDetailPage() {
   const router = useRouter();
